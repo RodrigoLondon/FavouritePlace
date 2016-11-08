@@ -12,6 +12,8 @@
 		18ED389A1C721DA90060C6C5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18ED38981C721DA90060C6C5 /* Main.storyboard */; };
 		18ED389C1C721DA90060C6C5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18ED389B1C721DA90060C6C5 /* Assets.xcassets */; };
 		18ED389F1C721DAA0060C6C5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18ED389D1C721DAA0060C6C5 /* LaunchScreen.storyboard */; };
+		18ED38A71C723AC00060C6C5 /* DetailVCViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18ED38A61C723AC00060C6C5 /* DetailVCViewController.swift */; };
+		18ED38A91C72A8FC0060C6C5 /* PhotoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18ED38A81C72A8FC0060C6C5 /* PhotoViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		18ED389B1C721DA90060C6C5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		18ED389E1C721DAA0060C6C5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		18ED38A01C721DAA0060C6C5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18ED38A61C723AC00060C6C5 /* DetailVCViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailVCViewController.swift; sourceTree = "<group>"; };
+		18ED38A81C72A8FC0060C6C5 /* PhotoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +64,8 @@
 				18ED389B1C721DA90060C6C5 /* Assets.xcassets */,
 				18ED389D1C721DAA0060C6C5 /* LaunchScreen.storyboard */,
 				18ED38A01C721DAA0060C6C5 /* Info.plist */,
+				18ED38A61C723AC00060C6C5 /* DetailVCViewController.swift */,
+				18ED38A81C72A8FC0060C6C5 /* PhotoViewController.swift */,
 			);
 			path = "Favourite Place";
 			sourceTree = "<group>";
@@ -136,7 +142,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				18ED38971C721DA90060C6C5 /* ViewController.swift in Sources */,
+				18ED38A91C72A8FC0060C6C5 /* PhotoViewController.swift in Sources */,
 				18ED38951C721DA90060C6C5 /* AppDelegate.swift in Sources */,
+				18ED38A71C723AC00060C6C5 /* DetailVCViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
